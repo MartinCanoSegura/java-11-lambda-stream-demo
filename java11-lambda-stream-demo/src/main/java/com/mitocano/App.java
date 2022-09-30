@@ -73,6 +73,7 @@ public class App {
 											 .collect(Collectors.toList());
 //        filteredList2B.forEach(System.out::println);
         
+        
 //      FORMA C:
         Function<String, String> coderFunction = name -> "MEXICO - " + name;
         List<String> filteredList2C = persons.stream()
